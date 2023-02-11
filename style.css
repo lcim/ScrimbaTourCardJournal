@@ -118,13 +118,13 @@
     margin-inline-end: auto;
     }
     .season, .description {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     .navbar, .location-link{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .title {
-        font-size: 35px;
+        font-size: 3.5rem;
     }
     
     .tour-img {
