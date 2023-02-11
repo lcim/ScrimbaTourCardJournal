@@ -119,10 +119,12 @@
     }
     
     .textuals {
-/*     padding-inline-start: 10%;
-    padding-inline-end: 10%;
-    margin-inline-start: auto;
-    margin-inline-end: auto; */
+        display: flex;
+        flex-direction: column:
+        padding-inline-start: 10%;
+        padding-inline-end: 10%;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
     }
     .season, .description {
         font-size: 1.5rem;
@@ -140,7 +142,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 767px) {
     .card-container, .navbar {
         padding-left: 15%;
         padding-right: 15%;
