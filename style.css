@@ -112,15 +112,6 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-     .textuals {
-        display: flex;
-        flex-direction: row;
-/*         justify-content: center;
-        padding-inline-start: 10%;
-        padding-inline-end: 10%; */
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-    }
 }
 
 @media screen and (min-width: 692px) {
@@ -130,9 +121,8 @@
     
     .textuals {
         display: flex;
-        flex-direction: row;
-        padding-inline-start; 10%;
-        justify-content: center;
+        flex-direction: column:
+        padding-inline-start: 10%;
         padding-inline-end: 10%;
         margin-inline-start: auto;
         margin-inline-end: auto;
