@@ -120,8 +120,7 @@
     }
     
     .textuals {
-        display: flex;
-        flex-direction: row:
+        display: inline-block;
         padding-inline-start: 10%;
         padding-inline-end: 10%;
         margin-inline-start: auto;
