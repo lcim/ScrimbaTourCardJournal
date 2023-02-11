@@ -50,7 +50,8 @@
 }
 
 .textuals {
-/*     padding-inline-end: 1.3rem; */
+    display:inline-block;
+    margin: auto;
 }
 
 .location {
