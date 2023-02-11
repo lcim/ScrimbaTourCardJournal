@@ -105,17 +105,15 @@
     color: #2B283A;
 }  
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 600px) {
     .card-container {
         flex-direction: column;
-        padding-left: 0;
     }
 }
 
 @media screen and (min-width: 692px) {
     .card-container {
         flex-direction: column;
-        padding-left: 0;
     }
     
     .textuals {
