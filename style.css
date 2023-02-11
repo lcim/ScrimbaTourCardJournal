@@ -50,7 +50,6 @@
 }
 
 .textuals {
-    display:inline-block;
     margin: auto;
 }
 
@@ -121,7 +120,7 @@
     
     .textuals {
         display: flex;
-        flex-direction: column:
+        flex-direction: row;
         padding-inline-start: 10%;
         padding-inline-end: 10%;
         margin-inline-start: auto;
