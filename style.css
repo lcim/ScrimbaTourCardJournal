@@ -117,8 +117,8 @@
     }
     
     .textuals {
-    padding-inline-start: 15%;
-    padding-inline-end: 15%;
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
     margin-inline-start: auto;
     margin-inline-end: auto;
     }
@@ -140,8 +140,8 @@
 
 @media screen and (min-width: 992px) {
     .card-container, .navbar {
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 15%;
+        padding-right: 15%;
         flex-direction: row;
     }
 }
