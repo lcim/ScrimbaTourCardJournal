@@ -103,7 +103,7 @@
     color: #2B283A;
 }  
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 769px) {
     .card-container {
         flex-direction: column;
         padding-left: 0;
@@ -128,7 +128,7 @@
         padding-right: 6%;
         align-items: center;
         justify-content: center;
-        column-gap: 2.4rem
+        column-gap: 4.5rem;
     }
     
     .tour-img, .textuals {
