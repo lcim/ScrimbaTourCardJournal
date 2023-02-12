@@ -124,7 +124,17 @@
 
 @media screen and (min-width: 992px) {
     .card-container, .navbar {
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 6%;
+        padding-right: 6%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tour-img, .textuals {
+    max-width: 330px;
+    height: 380px;
+    border-radius: 14px;
+    font-size: 1.8rem;
+    
     }
 }
