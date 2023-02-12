@@ -44,10 +44,10 @@
     margin-block-end: 1rem;
     border-radius: 14px;
 }
-/* 
+
 .textuals {
-    margin-inline-end: 1.3rem;
-} */
+   height: unset;
+}
 
 .location {
     display: flex;
@@ -137,5 +137,9 @@
     border-radius: 14px;
     font-size: 1.8rem;
     
+    }
+    
+    .textuals {
+        height: unset;
     }
 }
