@@ -41,7 +41,7 @@
     -3px -3px 2px 1px #eeeeee;
 }
 
- .tour-img {
+ .tour-img, .textuals {
     max-width: 270px;
     height: 320px;
     display: block;
@@ -49,10 +49,10 @@
     border-radius: 14px;
 }
 
-.textuals {
+/* .textuals {
     display:inline-block;
     margin: auto;
-}
+} */
 
 .location {
     display: flex;
@@ -121,19 +121,21 @@
     
     .textuals {
         display: inline-block;
-        padding-inline-start: 10%;
-        padding-inline-end: 10%;
+        padding-inline-start: 3%;
+        padding-inline-end: 3%;
         margin-inline-start: auto;
         margin-inline-end: auto;
     }
+    
     .season, .description {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
+    
     .navbar, .location-link{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .title {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
     
     .tour-img {
