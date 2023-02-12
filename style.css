@@ -29,12 +29,10 @@
     column-gap: 1.3rem;
     justify-content: center;
     align-items: center;
+    padding-left: 1.5rem;
     margin-block-end: 2rem;
-    margin-block-start: 2rem;
     border-bottom-right-radius: 15px; 
     border-bottom-left-radius: 15px;
-    padding-block-end: 2rem;
-    padding-block-start: 2rem;
     box-shadow: 3px 3px 2px 1px #eeeeee,
     -3px -3px 2px 1px #eeeeee;
 }
@@ -42,14 +40,13 @@
  .tour-img, .textuals {
     max-width: 270px;
     height: 320px;
-    display: block;
-    margin: auto
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
     border-radius: 14px;
 }
-
-/* .textuals {
-    display:inline-block;
-    margin: auto;
+/* 
+.textuals {
+    margin-inline-end: 1.3rem;
 } */
 
 .location {
@@ -83,6 +80,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
+    margin-block-start: 0.5rem;
 }
 
 .season {
@@ -105,47 +103,28 @@
     color: #2B283A;
 }  
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 590px) {
     .card-container {
         flex-direction: column;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (min-width: 692px) {
-    .card-container {
-        flex-direction: column;
+        padding-left: 0;
     }
     
-    .textuals {
-        display: inline-block;
-        padding-inline-start: 3%;
-        padding-inline-end: 3%;
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-    }
+    /* .textuals {
+    padding-inline-start: 22%;
+    padding-inline-end: 22%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    } */
     
-    .season, .description {
-        font-size: 1.2rem;
-    }
-    
-    .navbar, .location-link{
-        font-size: 1.3rem;
-    }
-    .title {
-        font-size: 2.1rem;
-    }
-    
-    .tour-img {
+    .tour-img, .textuals {
         margin-inline-start: auto;
         margin-inline-end: auto;
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 992px) {
     .card-container, .navbar {
-        padding-left: 15%;
-        padding-right: 15%;
-        flex-direction: row;
+        padding-left: 25%;
+        padding-right: 25%;
     }
 }
