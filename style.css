@@ -128,6 +128,7 @@
         padding-right: 6%;
         align-items: center;
         justify-content: center;
+        column-gap: 2.4rem
     }
     
     .tour-img, .textuals {
