@@ -121,7 +121,6 @@
 @media screen and (min-width:701px) and (max-width: 991px) {
      .card-container {
         flex-direction: row;
-        display: row;
         align-items: center;
         margin: auto 0.5rem;
         padding: 3%;
@@ -164,7 +163,7 @@
     .card-container, .navbar {
         /* padding-left: 6%;
         padding-right: 6%; */
-        padding: 6% 4%;
+        padding: 4% 6%;
         align-items: center;
         justify-content: center;
         column-gap: 6.3rem;
@@ -207,5 +206,6 @@
     .navbar {
         justify-content: flex-start;
         column-gap: 0.5rem;
+        padding-left: 10%;
     }
 }
