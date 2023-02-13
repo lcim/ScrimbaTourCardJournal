@@ -123,8 +123,7 @@
         display: row;
         align-items: center;
         margin: auto 0.5rem;
-        padding-left: 3%;
-        padding-right: 3%;
+        padding: 3%;
     }
     
     .country {
@@ -162,8 +161,9 @@
 
 @media screen and (min-width: 992px) {
     .card-container, .navbar {
-        padding-left: 6%;
-        padding-right: 6%;
+        /* padding-left: 6%;
+        padding-right: 6%; */
+        padding: 6% 4%;
         align-items: center;
         justify-content: center;
         column-gap: 6.3rem;
