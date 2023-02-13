@@ -122,20 +122,20 @@
     }
     
     .country {
-        font-size:1.3rem;
+        font-size:1.8rem;
     }
     
      .title {
-        font-size:35px;
+        font-size:45px;
     }
     
      .location-link {
-        font-size: 1.0rem;
+        font-size: 1.5rem;
     }
     
      .season, .description {
-        font-size: 1.3rem;
-        line-height: 18px
+        font-size: 1.8rem;
+        line-height: 28px
     }
 }
 
