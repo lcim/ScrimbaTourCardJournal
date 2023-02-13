@@ -26,6 +26,7 @@
 .card-container {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     flex-direction: column;
     column-gap: 3.3rem;
     justify-content: center;
