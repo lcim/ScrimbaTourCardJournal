@@ -26,7 +26,7 @@
 .card-container {
     display: flex;
     flex: 1;
-    column-gap: 1.3rem;
+    column-gap: 3.3rem;
     justify-content: center;
     align-items: center;
     padding-left: 1.5rem;
@@ -44,10 +44,10 @@
     margin-block-end: 1rem;
     border-radius: 14px;
 }
-/* 
+
 .textuals {
-   height: unset;
-} */
+   height: fit-content;
+}
 
 .location {
     display: flex;
@@ -103,23 +103,17 @@
     color: #2B283A;
 }  
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 769px) {
     .card-container {
         flex-direction: column;
         padding-left: 0;
-    }
-    
-    /* .textuals {
-    padding-inline-start: 22%;
-    padding-inline-end: 22%;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    } */
-    
+    } 
+       
     .tour-img, .textuals {
         margin-inline-start: auto;
         margin-inline-end: auto;
     }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -138,8 +132,13 @@
     font-size: 1.8rem;
     
     }
-    
+
     .textuals {
         height: unset;
+    }
+    
+    .navbar {
+        justify-content: flex-start;
+        column-gap: 0.5rem;
     }
 }
