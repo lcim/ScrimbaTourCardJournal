@@ -116,7 +116,7 @@
     
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 711px) {
     .card-container, .navbar {
         padding-left: 6%;
         padding-right: 6%;
