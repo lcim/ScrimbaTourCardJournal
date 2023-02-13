@@ -137,27 +137,7 @@
         font-size: 1.3rem;
         line-height: 18px
     }
-} */
-
-@media screen and (max-width: 700px) {
-    .card-container {
-        flex-direction: column;
-        padding-left: 0;
-    } 
-       
-    .tour-img, .textuals {
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-    }
-    
 }
-
-@media screen and (min-width:701px) and (max-width: 991px) {
-     .card-container {
-        flex-direction: column;
-    }
-}
-
 
 @media screen and (min-width: 992px) {
     .card-container, .navbar {
