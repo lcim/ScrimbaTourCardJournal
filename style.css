@@ -120,6 +120,23 @@
     .card-container {
         display: row;
     }
+    
+    .country {
+        font-size:1.3rem;
+    }
+    
+     .title {
+        font-size:35px;
+    }
+    
+     .location-link {
+        font-size: 1.0rem;
+    }
+    
+     .season, .description {
+        font-size: 1.3rem;
+        line-height: 18px
+    }
 }
 
 @media screen and (min-width: 711px) {
